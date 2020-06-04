@@ -1,0 +1,8 @@
+.intro-section {
+  background-image: linear-gradient(rgba(119,119,119,0.65), rgba(119,119,119,0.65)), url("../img/intro-cover.jpg");
+  background-color: #433243; /* Used if the image is unavailable */
+  height: 770px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
