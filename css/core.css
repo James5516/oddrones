@@ -22,11 +22,11 @@
 /* heading text */
 
 .heading-text{
-  font-family: raleway;
+  font-family: nunito-sans, sans-serif;;
   font-size: 4rem;
-  font-weight: 600;
+  font-weight: 900;
   text-align: center;
-  color: #fff;
+  color: #6e14c8;
   padding-top: 20rem;
   padding-bottom: 1rem;
   text-decoration: underline;
@@ -42,11 +42,11 @@
 /* sub-heading text */
 
 .sub-heading-text{
-  font-family: raleway;
+  font-family: nunito-sans, sans-serif;;
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
-  color: #fff;
+  color: #6e14c8;
 }
 
 /* If the screen size is 600px wide or less */
@@ -59,7 +59,7 @@
 /* Background for about*/
 
 .about-section {
-  background-color: #1abc9c;
+  background-color: rgba(110, 20, 200);
   height: 950px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -70,24 +70,24 @@
 /* About heading text */
 
 .about-heading-text{
-  font-family: raleway;
+  font-family: nunito-sans, sans-serif;
   font-size: 4rem;
   font-weight: 600;
   text-align: center;
-  color: #fff;
-  padding-top: 10rem;
+  color: #000000;
+  padding-top: 0rem;
   padding-bottom: 1rem;
   text-decoration: underline;
 }
 
 .about-text{
-  font-family: raleway;
+  font-family: nunito-sans, sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
   text-align: center;
-  color: #fff;
+  color: #000000;
   margin-top: 1rem;
-  margin-left: 10rem;
+  margin-left: 5rem;
   margin-right: 5rem;
 }
 
@@ -129,18 +129,18 @@
 }
 
 .about-picture{
-  border-radius: 50%;
+  border-radius: 25%;
   max-width: 500px;
   height: auto;
   padding: 5rem;
-  margin-right: 10rem;
+  margin-right: 5rem;
 }
 
 
 /* If the screen size is 600px wide or less */
 @media screen and (max-width: 600px) {
 .about-picture {
-  margin-top: 2rem;
+  margin-top: 5rem;
   padding: 0rem;
   max-width: 200px;
   height: auto;
@@ -152,6 +152,27 @@
 .about-picture-flex {
   flex-direction: column;
   }
+}
+
+.about-border{
+	background-color: rgba(255, 255, 255, 0.85);
+	padding: 3rem;
+	text-align: center;
+	border-radius: .50rem;
+	margin-left: 3rem;
+}
+
+/* If the screen size is 600px wide or less */
+@media screen and (max-width: 600px) {
+.about-border {
+	margin-right: 3rem;
+	margin-top: 1rem;
+  }
+}
+
+.powr-multi-slider{
+	width: 500px;
+	height: 200px;
 }
 
 
@@ -171,11 +192,11 @@
 }
 
 .team-heading-text{
-  font-family: raleway;
+  font-family: nunito-sans, sans-serif;
   font-size: 4rem;
   font-weight: 600;
   text-align: center;
-  color: #fff;
+  color: #000000;
   padding-top: 9rem;
   padding-bottom: 1rem;
   text-decoration: underline;
@@ -193,7 +214,7 @@
 /* Background for footer*/
 
 .footer-section {
-  background-color: #1abc9c;
+  background-color: rgba(110, 20, 200, 0.2);
   height: 200px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
